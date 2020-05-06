@@ -1,0 +1,133 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    margin-bottom: 0px !important;
+}
+
+.bg-info {
+    background-color: hsl(238, 22%, 44%) !important;
+}
+
+.bg-dark {
+    background-color: hsl(243, 87%, 12%) !important;
+}
+
+.nav-link {
+    display: inline;
+    color: hsl(0, 0%, 57%);
+}
+
+.container-fluid {
+    margin-top: 3em;
+}
+
+.text1 h1 {
+    margin: 1em 5em 1em 1em;
+    font-weight: 700;
+}
+
+.text1 p {
+    margin: 0 10em 0 3em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.form-group {
+    margin: 2em 0 0 3em;
+}
+
+.form-control1 {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text2 h1 {
+    margin: 1em 5em 1em 1em;
+    font-weight: 700;
+}
+
+.paragraph {
+    margin: 0 10em 0 3em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.text2 a {
+    margin-left: 3em;
+    text-decoration: underline;
+}
+
+.card {
+    margin: 2em 10px 6em 3em;
+    width: 20rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.avatar {
+    display: flex;
+    border-radius: 75px;
+}
+
+.name {
+    margin-top: 5px;
+}
+
+.text3 {
+    margin: 5em 0 5em 0;
+}
+
+.text3 h1 {
+    margin: 0 0 1em 2em;
+}
+
+.text3 p {
+    margin-left: 5em;
+}
+
+.form-group1 {
+    margin-top: 5em;
+}
+
+.form-control {
+    width: 400px;
+    margin-bottom: 3em;
+}
+
+ul {
+    list-style: none;
+    line-height: 3em;
+}
+
+.contact, .about, .terms, .social {
+    margin: 5em 0 5em 0;
+}
+
+.about, .terms, .social {
+    padding-top: 3em;
+}
+
+.contact {
+    padding-left: 2em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+ }
+ 

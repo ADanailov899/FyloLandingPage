@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+<body>
+
+  <!--Navbar - Fylo/Features/team/Sign in-->
+
+<nav class="navbar navbar-light bg-white">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo.svg" width="120" height="50" class="d-inline-block align-top" alt="logo">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.frontendmentor.io">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.frontendmentor.io">Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.frontendmentor.io">Sign In</a>
+      </li>
+    </ul>
+  </a>
+</nav>
+  
+  <!-- complete container with 4 diff parts -->
+
+<div class="container-fluid">
+
+  <!-- part 1 - text with email+button left + picture right-->
+
+  <div class="row">
+    <div class="text1 col-md-7">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+
+      <p>Fylo stores your most important files in one secure location. 
+      Access them wherever you need, share and collaborate with friends, 
+      family, and co-workers.</p>
+
+      <form class="form-inline">
+        <div class="form-group mb-3">
+          <input  type="email" 
+                  class="form-control1" 
+                  id="exampleFormControlInput1" 
+                  placeholder="Enter your email"></div>
+        <div class="form-group mb-3">
+          <input  type="button"
+                  class="btn1 btn-primary"
+                  value="Get started">
+        </div>
+      </form>
+      
+    </div>
+    <div class="picture1 col-md-5">
+      <img src="images/illustration-1.svg" alt="picture1" width="100%" height="auto">
+    </div>
+    <img src="images/bg-curve-desktop.svg" alt="background">
+
+  </div>
+  
+  <!-- part 2 text with testimonial left + picture right -->
+
+  <div class="row p-3 mb-2 bg-light text-dark">
+    <div class="text2 col-md-7">
+      <h1>Stay productive, wherever you are</h1>
+
+      <p class="paragraph">Never let location be an issue when accessing your files. Fylo has you 
+      covered for all of your file storage needs.
+      <br><br>
+      Securely share files and folders with friends, family and colleagues for 
+      live collaboration. No email attachments required!</p>
+
+      <a href="https://www.frontendmentor.io" style="color: green">See how Fylo works<img src="images/icon-arrow.svg" alt="arrow icon"></a>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><img src="images/icon-quotes.svg" alt="quotes"></h5>
+          
+          <p class="card-text">Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.</p>
+          <div class="user">
+            <img class="avatar float-left" src="images/avatar-testimonial.jpg" alt="avatar" width="60px" height="60px">
+          <div>
+            <p class="name">Kyle Burton</p>
+            <p class="card-text"><b>Founder & CEO, Huddle</b></p>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="picture2 col-md-5">
+      <img src="images/illustration-2.svg" alt="picture2" width="100%" height="100%">
+    </div>
+  </div>
+
+  <!-- part 3 text left + email form & button right -->
+
+  <div class="row p-3 mb-2 bg-info text-white">
+    <div class="text3 col-md-6">
+      <h1>Get early access today</h1>
+
+      <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+      If you have any questions, our support team would be happy to help you.</p>
+    </div>
+    <div class="right3 col-md-6">
+      <form>
+        <div class="form-group1">
+          <input  type="email" 
+                  class="form-control" 
+                  id="exampleFormControlInput1" 
+                  placeholder="email@example.com">
+        </div>
+      </form>
+      <button type="button" class="btn btn-primary" style="width: 250px;" >Get Started For Free</button>
+    </div>
+  </div>
+
+  <!-- part 4 logos + links -->
+  
+  <div class="row p-3 mb-2 bg-dark text-white">
+    <div class="contact col-md-3">
+      <ul>
+      <li><img src="images/logo1.svg" alt="logo" width="180" height="60"></li>
+      <li><img src="images/icon-phone.svg" alt="phone icon"></a> Phone: +1-543-123-4567</li>
+      <li><img src="images/icon-email.svg" alt="email icon"> example@fylo.com</li>
+      </ul>
+    </div>
+    <div class="about col-md-3">
+      <ul>
+      <li>About Us</li>
+      <li>Jobs</li>
+      <li>Press</li>
+      <li>Blog</li>
+      </ul>
+    </div>
+    <div class="terms col-md-3">
+      <ul>
+        <li>Contact Us</li>
+        <li>Terms</li>
+        <li>Privacy</li>
+        </ul>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com" class="fa fa-facebook-official fa-2x"></a>
+      <a href="https://www.twitter.com" class="fa fa-twitter fa-2x"></a>
+      <a href="https://www.instagram.com" class="fa fa-instagram fa-2x"></a>
+    </div>
+  </div>
+</div>
+ 
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ADanailov899">Aleksandar Danailov</a>.
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
